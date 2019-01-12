@@ -21,14 +21,14 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView"
+            android:id="@+id/leftDice"
             android:layout_width="168dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             app:srcCompat="@drawable/dice1" />
 
         <ImageView
-            android:id="@+id/imageView2"
+            android:id="@+id/rightDice"
             android:layout_width="164dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -36,7 +36,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/rollDice"
         android:layout_width="164dp"
         android:layout_height="57dp"
         android:layout_marginStart="8dp"
